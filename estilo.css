@@ -1,25 +1,74 @@
-body{
-background-color: #5ba2bb;
-font: noral 15pt Arial;
+body {
+    background-image: url('imagens/fundo-imagem.svg');
+    background-repeat: no-repeat;
+    /* Impede a repetição da imagem */
+    background-size: cover;
+    /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center center;
+    /* Centraliza a imagem horizontal e verticalmente */
+    font: normal 1.2rem Tahoma;
 }
 
 header {
-color: #000000;
-text-align: center;
+    color: #fff;
+    text-align: center;
+    background-color:#E9967A;
+    padding: 5px;
+    margin-bottom: 30px;
 }
 
 section {
-background-color: #fff;
-border-radius: 10px;
-padding: 15px;
-width: 500px;
-margin: auto;
-box-shadow: 3px 3px 10px #0000006b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #0000006b;
+}
+
+div#res,
+div#perg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+p {
+    margin: 5px;
+}
+
+#txtano {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #E9967A;
+    text-align: center;
+
+}
+
+#btn {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #E9967A;
+    text-align: center;
+    background-color: #FFDAB9;
+    cursor: pointer;
+
 }
 
 footer {
     color: #fff;
     text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
 }
 
 footer a {
