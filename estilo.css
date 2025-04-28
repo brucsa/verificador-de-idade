@@ -12,7 +12,7 @@ body {
 header {
     color: #fff;
     text-align: center;
-    background-color:#E9967A;
+    background-color: #E9967A;
     padding: 5px;
     margin-bottom: 30px;
 }
@@ -37,7 +37,7 @@ div#perg {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 p {
@@ -61,7 +61,12 @@ p {
     text-align: center;
     background-color: #FFDAB9;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Suavizar cor do botão */
+}
 
+#btn:hover {
+    background-color: #E9967A;
 }
 
 footer {
@@ -78,4 +83,15 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* MOBILE */
+@media(max-width:700px) {
+
+    section {
+        padding: 10px;
+        width: 300px;
+        flex-direction: column;
+        height: 500px;
+    }
 }

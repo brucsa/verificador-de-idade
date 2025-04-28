@@ -45,7 +45,7 @@ function verificar() {
                 img.setAttribute('src', 'imagens/f-idosa.jpg')
             }
         }
-        res.innerHTML = `Detectamos pessoa com ${idade} anos.`
+        res.innerHTML = `Detectamos uma pessoa com ${idade} anos.`
         res.appendChild(img) //appendChild - adicionar um elemento
     }
 }
